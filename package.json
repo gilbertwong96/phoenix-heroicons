@@ -1,13 +1,14 @@
 {
   "name": "phoenix-heroicons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Heroicons plugin for phoenix project",
   "main": "index.js",
   "types": "index.d.ts",
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit --pretty",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "tsc"
   },
   "files": [
     "index.js",
